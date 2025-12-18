@@ -47,7 +47,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -1016,11 +1016,17 @@ input:focus, select:focus {
     padding: 20px;
 }
 
+.section-header h2 {
+  color: var(--dark-color);
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #leave .section-header h2 {
     font-size: 24px;
     font-weight: 800;
     color: var(--dark-color);
-    margin-bottom: 20px;
     background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -2036,6 +2042,6 @@ body.sidebar-open {
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-#marks h3 {
-  margin-top: 20px;
-      }
+/*#marks h3 {*/
+/*  margin-top: 20px;*/
+/*}*/
